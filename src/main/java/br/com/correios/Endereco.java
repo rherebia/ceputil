@@ -50,6 +50,11 @@ public class Endereco {
         this.uf = uf;
         return this;
     }
+    
+    public Endereco setBairro(String bairro) {
+		this.bairro = bairro;
+		return this;
+	}
 
     public Endereco setCidade(String cidade) {
         this.cidade = cidade;
